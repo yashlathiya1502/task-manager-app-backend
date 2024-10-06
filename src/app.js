@@ -16,7 +16,7 @@ app.use(express.json());
 // setup for google login =======================================
 app.use(
   session({
-    secret: 'asdasdasdaerWWasirunffr',
+    secret: process.env.SESSION_SECRET_KEY,
     resave: false,
     saveUninitialized: true
   })
