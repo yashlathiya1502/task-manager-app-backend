@@ -1,0 +1,20 @@
+
+Google login integration
+
+1. Create a Project:
+   Open Google developer console
+   create new project
+   Enter the name for your project ex. 'GoogleLogin' or anything and click on "create".
+
+2. Enable APIs and Services:
+   In Enable APIs and Services search for Google+ api and select it.
+   Click the "Enable" button. 
+
+3. Create OAuth 2.0 credentials: 
+   In Google developer console go to "credential" in left sidebar.
+   click "create Credentials" and select "OAuth client ID" and click "Configure consent screen".
+   choose 'external' and create
+   complete the process.
+   again In Google developer console go to "credential" in left sidebar.
+   click "create Credentials" and select "OAuth client ID".
+   select "web application"
